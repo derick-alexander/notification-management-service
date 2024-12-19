@@ -13,7 +13,7 @@ import java.util.List;
  * REST controller for managing notifications.
  */
 @RestController
-@RequestMapping("/api/notifications")
+@RequestMapping("/notifications")
 @RequiredArgsConstructor
 @Slf4j
 public class NotificationController {
